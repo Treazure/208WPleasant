@@ -1272,7 +1272,7 @@ var APP_DATA = {
           "yaw": 1.6865513995770476,
           "pitch": 0.2467442968209994,
           "rotation": 0,
-          "target": "19-left-1"
+          "target": "21-left-sidewalk-1"
         }
       ],
       "infoHotspots": []
@@ -2465,7 +2465,7 @@ var APP_DATA = {
           "yaw": 2.1410873402931134,
           "pitch": 0.29919454680394075,
           "rotation": 5.497787143782138,
-          "target": "43-up-bath"
+          "target": "9-up-bed"
         },
         {
           "yaw": 3.1279331987613954,
