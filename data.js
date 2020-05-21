@@ -3070,7 +3070,7 @@ var APP_DATA = {
           "yaw": 0.48239778586735227,
           "pitch": 0.39519234900221356,
           "title": "Front Bedroom",
-          "text": "Text"
+          "text": ""
         }
       ]
     }
