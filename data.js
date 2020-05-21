@@ -342,16 +342,15 @@ var APP_DATA = {
           "pitch": 0.5696975580085546,
           "rotation": 0,
           "target": "5-rear-fenced-in"
-        }
-      ],
-      "infoHotspots": [
-        {
+        },
+		{
           "yaw": -1.2049202590999037,
           "pitch": 0.44916671678770825,
-          "title": "Down Kitchen",
-          "text": ""
+          "rotation": 0,
+          "target": "47-down-kitchen"
         }
-      ]
+      ],
+      "infoHotspots": []
     },
     {
       "id": "7-up-kitchen-to-bath",
