@@ -599,16 +599,15 @@ var APP_DATA = {
           "pitch": 0.5735078289283422,
           "rotation": 0,
           "target": "2-foyer"
-        }
-      ],
-      "infoHotspots": [
-        {
+        },
+		{
           "yaw": 0.287648543255262,
           "pitch": 0.11226362845008708,
-          "title": "Downstairs Living Room",
-          "text": ""
+          "rotation": 0,
+          "target": "58-down-living-room"
         }
-      ]
+      ],
+      "infoHotspots": []
     },
     {
       "id": "12-stairs",
@@ -1210,16 +1209,15 @@ var APP_DATA = {
           "pitch": 0.9350879162093158,
           "rotation": 0,
           "target": "23-down-steps"
-        }
-      ],
-      "infoHotspots": [
-        {
+        },
+		{
           "yaw": 0.22841431277650237,
           "pitch": 0.07696710061721035,
-          "title": "Downstairs Entry",
-          "text": ""
+          "rotation": 0,
+          "target": "58-down-living-room"
         }
-      ]
+      ],
+      "infoHotspots": []
     },
     {
       "id": "23-down-steps",
@@ -2475,6 +2473,607 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": []
+    },
+	{
+      "id": "47-down-kitchen",
+      "name": "Down Kitchen",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 0.2044180007797607,
+        "pitch": 0.1782438892137339,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.34515561072978507,
+          "pitch": 0.52404138952061,
+          "rotation": 0,
+          "target": "48-down-kitch-sink"
+        },
+        {
+          "yaw": -2.6446712581968796,
+          "pitch": 0.27234831537507276,
+          "rotation": 0,
+          "target": "6-rear-deck"
+        },
+        {
+          "yaw": -2.0814261949810344,
+          "pitch": 0.5555072185156078,
+          "rotation": 0,
+          "target": "49-down-dining"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "48-down-kitch-sink",
+      "name": "Down Kitch Sink",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 1.335256205608733,
+        "pitch": 0.3302530323515587,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.2731642636116973,
+          "pitch": 0.6535331520415912,
+          "rotation": 0,
+          "target": "47-down-kitchen"
+        },
+        {
+          "yaw": 1.5806642061084846,
+          "pitch": 0.11068779972374365,
+          "rotation": 0,
+          "target": "55-basement-back"
+        },
+        {
+          "yaw": 1.889332770506023,
+          "pitch": 0.44313307194475904,
+          "rotation": 0,
+          "target": "49-down-dining"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "49-down-dining",
+      "name": "Down Dining",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 0.8968857316392533,
+        "pitch": -0.04788739726183877,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.640599562270074,
+          "pitch": 0.45728308389296224,
+          "rotation": 0,
+          "target": "50-down-dining-window"
+        },
+        {
+          "yaw": 0.16128269222303615,
+          "pitch": 0.5402761023593889,
+          "rotation": 0,
+          "target": "58-down-living-room"
+        },
+        {
+          "yaw": -0.481123796991465,
+          "pitch": 0.3808260678156081,
+          "rotation": 0,
+          "target": "53-basement-stairs"
+        },
+        {
+          "yaw": -1.9448989783786175,
+          "pitch": 0.6201799585222023,
+          "rotation": 0,
+          "target": "51-down-laundry"
+        },
+        {
+          "yaw": -2.960902015301418,
+          "pitch": 0.4827604386940134,
+          "rotation": 0,
+          "target": "47-down-kitchen"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "50-down-dining-window",
+      "name": "Down Dining Window",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.392821096093231,
+          "pitch": 0.6375779827396073,
+          "rotation": 0,
+          "target": "49-down-dining"
+        },
+        {
+          "yaw": -1.9976066589785653,
+          "pitch": 0.26090571734435564,
+          "rotation": 0,
+          "target": "53-basement-stairs"
+        },
+        {
+          "yaw": -2.634980532765937,
+          "pitch": 0.3415010100132694,
+          "rotation": 0,
+          "target": "51-down-laundry"
+        },
+        {
+          "yaw": 3.0935517539138093,
+          "pitch": 0.25883468883282745,
+          "rotation": 11.780972450961727,
+          "target": "47-down-kitchen"
+        },
+        {
+          "yaw": -1.9148321623839166,
+          "pitch": 0.6442045586963054,
+          "rotation": 7.853981633974483,
+          "target": "58-down-living-room"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "51-down-laundry",
+      "name": "Down Laundry",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": -0.08998568113912242,
+        "pitch": 0.06225821111500274,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.6803391585799687,
+          "pitch": 0.4799363692351335,
+          "rotation": 0,
+          "target": "57-down-bath"
+        },
+        {
+          "yaw": 2.93961019241892,
+          "pitch": 0.7438845227822295,
+          "rotation": 0,
+          "target": "49-down-dining"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "52-down-bed",
+      "name": "Down Bed",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 1.8517288078262197,
+        "pitch": -0.16555499862688272,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.9440229136710059,
+          "pitch": 0.25059366178091125,
+          "rotation": 0,
+          "target": "57-down-bath"
+        },
+        {
+          "yaw": -2.374311101349555,
+          "pitch": 0.6179034995529946,
+          "rotation": 0,
+          "target": "58-down-living-room"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "53-basement-stairs",
+      "name": "Basement Stairs",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 0.5198309387405189,
+        "pitch": 0.19035546486502852,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.512645041927515,
+          "pitch": -0.12140574548358174,
+          "rotation": 0.7853981633974483,
+          "target": "49-down-dining"
+        },
+        {
+          "yaw": -2.6598667133392553,
+          "pitch": 0.46890027178239,
+          "rotation": 0,
+          "target": "54-basement-furnace"
+        },
+        {
+          "yaw": 0.08085512868743727,
+          "pitch": 0.35549495795439334,
+          "rotation": 0,
+          "target": "55-basement-back"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "54-basement-furnace",
+      "name": "Basement Furnace",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": -1.03739536062254,
+        "pitch": 0.18044461627043518,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7026010789989723,
+          "pitch": 0.3594878361868705,
+          "rotation": 0,
+          "target": "53-basement-stairs"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "55-basement-back",
+      "name": "Basement Back",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": -3.138136140246015,
+        "pitch": 0.1535899044255764,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.17166841321307835,
+          "pitch": 0.44090741185480375,
+          "rotation": 0,
+          "target": "53-basement-stairs"
+        },
+        {
+          "yaw": 1.8940688250858573,
+          "pitch": 0.4013119080418299,
+          "rotation": 0,
+          "target": "56-basement-to-outside"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "56-basement-to-outside",
+      "name": "Basement to Outside",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": -0.294797173814052,
+        "pitch": 0.3509456573097349,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.1088195023415981,
+          "pitch": -0.10697194929950626,
+          "rotation": 0,
+          "target": "24-left-sidewalk-2"
+        },
+        {
+          "yaw": 3.0469712483793288,
+          "pitch": 0.7512412228259286,
+          "rotation": 0,
+          "target": "55-basement-back"
+        },
+        {
+          "yaw": -2.488846640907706,
+          "pitch": 0.6011640314613977,
+          "rotation": 0.7853981633974483,
+          "target": "53-basement-stairs"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "57-down-bath",
+      "name": "Down Bath",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": -0.3650414795287631,
+        "pitch": 0.11330193574522696,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.2908340955737039,
+          "pitch": 0.2987047582286291,
+          "rotation": 0,
+          "target": "52-down-bed"
+        },
+        {
+          "yaw": -2.297026767634396,
+          "pitch": 0.13584214067382838,
+          "rotation": 0,
+          "target": "51-down-laundry"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "58-down-living-room",
+      "name": "Down Living Room",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 2.5000172938115153,
+        "pitch": 0.10314447789388304,
+        "fov": 1.4261791587875234
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.7590111956316434,
+          "pitch": 0.1958337858952568,
+          "rotation": 0,
+          "target": "22-down-stoop"
+        },
+        {
+          "yaw": -1.9233855372213426,
+          "pitch": 0.4983415996009679,
+          "rotation": 0,
+          "target": "49-down-dining"
+        },
+        {
+          "yaw": -1.2702783207390667,
+          "pitch": 0.19131958947122385,
+          "rotation": 0,
+          "target": "52-down-bed"
+        },
+        {
+          "yaw": -0.31184644855993326,
+          "pitch": 0.0738407700403485,
+          "rotation": 0,
+          "target": "11-hallway"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.48239778586735227,
+          "pitch": 0.39519234900221356,
+          "title": "Front Bedroom",
+          "text": "Text"
+        }
+      ]
     }
   ],
   "name": "208 W Pleasant St",
